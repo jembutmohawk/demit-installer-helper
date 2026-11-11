@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.demit.installer'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.demit.installer'
+        minSdk 23
+        targetSdk 29
+        versionCode 1
+        versionName '1.0'
+    }
+}
